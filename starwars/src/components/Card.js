@@ -12,7 +12,7 @@ class Card extends React.Component {
         let height = this.props.height
         return (
             <div className="card" id={id}>
-           <h1 className="name">Name:{char}</h1>
+           <h2 className="name">{char}</h2>
            <ul>
                <li>
                Eye Color: {eyeColor}

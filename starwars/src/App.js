@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//Font Awesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faJedi } from '@fortawesome/free-solid-svg-icons'
+
 import Card from './components/Card';
+
+//Font Awesome
+library.add(faJedi)
 
 class App extends Component {
   constructor() {
@@ -14,7 +22,7 @@ class App extends Component {
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
   }
-  
+
   getCharacters = URL => {
     // feel free to research what this code is doing.
     // At a high level we are calling an API to fetch some starwars data from the open web.
@@ -50,7 +58,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1 className="Header">React Wars</h1>
+        <h1 className="Header">React <FontAwesomeIcon id="jedi" icon="jedi" color="white" spin/> Wars</h1>
+        
         {char}
       </div>
     );
