@@ -1,8 +1,50 @@
 .App {
   text-align: center;
+  margin-top: 30vh;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 4em;
+  background: rgba(108, 122, 137, 1);
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1%;
+  height: 10vh;
 }
 /* write your parent styles in here for your App.js */
+li, ul {
+  display: block;
+  padding: 0;
+  text-align: left;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(191, 191, 191, 1);
+  width: 50%;
+  height: auto;
+  margin: 2.5% auto;
+  padding: 2.5%;
+  border-radius: 25px;
+  color: #443e3e;
+  box-shadow: 10px 10px 50px 21px rgba(0,0,0,0.74);
+}
+
+h2 {
+  color: #443e3e;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px #fff;
+}
+
+.card:first-child {
+  background:white;
+}

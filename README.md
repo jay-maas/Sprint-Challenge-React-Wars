@@ -26,26 +26,31 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a JS library. It's main goal is to effectively write code that is reusable with JSX to achieve great UI functionality. Creating classes that extend from the React.Component class comes with alot of benefits. Props and State are traits of this extends, state being living data in the DOM. Props are able to inherit state through Parent Child relationships. Additional methods can be added and also passed with props. The this keyword can be bound through the use of arrow functions. State should not be changed directly. I.e. if you have a JS Array filled with objects and defined in the stated, you will want to use the this.setState() to give a new version of the state. .forEach() is not required, as it will modify the state directly. .map() should be used instead, as it returns a newArray. 
+
 - [ ] What does it mean to _think_ in react?
+Components! Think of your problem and brainstorm to break down. Once you understand how to think in React, through basic javascript practices you can achieve alot. I.e. to think in React would take an entire different approach than to think in HTML. This is mainly because we have access to JSX combined with all Reacts goodies. Now inside of our React JS that gets transpiled by Babel we are able to write our JavaScript to populate the DOM. JS already has great access into the DOM but with React we are able to great classes that are reusable and, with the proper logic, autopopulate the DOM however we dictate with the data we chose. This is the beauty of JS! Components that are reusable. Abstraction of code. Little cogs turning bigger cogs. We are able to build an "App" now that lives on our website, and can do alot than help us click buttons on the screen, or make a cool carousel. Using React we can now truly build a complicated house with all our tools and materials, but manage it autonomously with some symantic syntax and logic.
 
 - [ ] Describe state.
+State is the living data in the DOM.
 
 - [ ] Describe props.
+Props is the inheritance cycle from Parent to Child, either State => Props, Props => Props, method() => Props and I am sure others I don't know about yet!
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!)
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!)
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -89,17 +94,17 @@ Your data set will look like this:
 
 Your finished project must include all of the following requirements:
 
-- [ ] A list of Star Wars Characters rendered to the screen.
-- [ ] You must have at least one list element for each star wars character in the data set.
-- [ ] The list elements must all be minimally styled. (Don't rely on browser default styles.)
+- [x] A list of Star Wars Characters rendered to the screen.
+- [x] You must have at least one list element for each star wars character in the data set.
+- [x] The list elements must all be minimally styled. (Don't rely on browser default styles.)
 
 Required best practices:
 
-- [ ] Consistent naming. Examples: variables, functions, classes, and files.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [x] Consistent naming. Examples: variables, functions, classes, and files.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent quotation usage.
+- [x] Spell-check.
+- [x] Schedule time to review, refine and reassess your work.
 
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
